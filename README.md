@@ -9,8 +9,12 @@ Centralized repository for managing mobile app legal files, including a single `
 ```
 iznurrehmankhan.github.io/
 ├─ app-ads.txt                  # Single file listing authorized AdMob accounts
+├─ assets/icons/                # App icons used on legal pages
+│   ├─ 8192.png
+│   └─ sabtbook.png
 ├─ privacy/                     # App-specific privacy policies
-│   ├─ eightoneninetwo.html
+│   ├─ 8192.html
+│   ├─ eightoneninetwo.html     # Redirect to 8192.html
 │   └─ sabtbook.html
 ├─ terms/                       # App-specific terms of service
 │   └─ sabtbook.html
@@ -21,7 +25,7 @@ iznurrehmankhan.github.io/
 
 ## Live URLs
 
-- Eight One Nine Two Privacy Policy: `https://iznurrehmankhan.github.io/privacy/eightoneninetwo.html`
+- 8192 Privacy Policy: `https://iznurrehmankhan.github.io/privacy/8192.html`
 - Sabt Book Privacy Policy: `https://iznurrehmankhan.github.io/privacy/sabtbook.html`
 - Sabt Book Terms of Service: `https://iznurrehmankhan.github.io/terms/sabtbook.html`
 - app-ads.txt: `https://iznurrehmankhan.github.io/app-ads.txt`

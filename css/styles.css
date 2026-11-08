@@ -14,6 +14,20 @@ header{
   text-align:center;
 }
 
+header .app-icon{
+  display:block;
+  width:88px;
+  height:88px;
+  margin:0 auto 16px;
+  border-radius:20px;
+  box-shadow:0 4px 16px rgba(0,0,0,.35);
+  /* Transparent icons show the header behind them. Override per image with
+     style="--app-icon-bg:#rrggbb" when an icon needs a solid fill; white is
+     the fallback if that variable is unset on a light surface. */
+  background:var(--app-icon-bg, transparent);
+  object-fit:cover;
+}
+
 header h1{
   margin:0;
   font-size:32px;
