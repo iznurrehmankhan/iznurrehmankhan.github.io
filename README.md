@@ -7,12 +7,21 @@ Centralized repository for managing mobile app legal files, including a single `
 ## Repository Structure
 
 ```
-my-app-legal-site/
+iznurrehmankhan.github.io/
 ├─ app-ads.txt                  # Single file listing authorized AdMob accounts
-├─ privacy/                     # Folder containing app-specific privacy policies
-│   ├─ app_one.html
-│   ├─ app_two.html
-│   ├─ app_three.html
-├─ README.md                     # This file
-└─ assets/ (optional)           # Optional folder for images or other assets
+├─ privacy/                     # App-specific privacy policies
+│   ├─ eightoneninetwo.html
+│   └─ sabtbook.html
+├─ terms/                       # App-specific terms of service
+│   └─ sabtbook.html
+├─ index.html
+├─ css/styles.css
+└─ README.md
 ```
+
+## Live URLs
+
+- Eight One Nine Two Privacy Policy: `https://iznurrehmankhan.github.io/privacy/eightoneninetwo.html`
+- Sabt Book Privacy Policy: `https://iznurrehmankhan.github.io/privacy/sabtbook.html`
+- Sabt Book Terms of Service: `https://iznurrehmankhan.github.io/terms/sabtbook.html`
+- app-ads.txt: `https://iznurrehmankhan.github.io/app-ads.txt`
